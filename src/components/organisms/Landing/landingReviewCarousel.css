@@ -1,0 +1,71 @@
+.landingReviewCarousel .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .landingReviewCarousel> .swiper-wrapper > .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent !important;
+  }
+  
+  /* .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  } */
+  .landingReviewCarousel > .swiper-wrapper > .swiper-slide {
+    width: 274px !important;
+  }
+  
+  .landingReviewCarousel > .swiper-wrapper > .swiper-slide:nth-child(2n) {
+    width: 274px !important;
+  }
+  
+  .landingReviewCarousel > .swiper-wrapper >  .swiper-slide:nth-child(3n) {
+    width: 274px !important;
+  }
+  .landingReviewCarousel > .swiper-wrapper >  .swiper-slide:last-child{
+    width: 274px !important;
+  }
+  .landingReviewCarousel > .append-buttons button {
+    display: inline-block;
+    cursor: pointer;
+    border: 1px solid #007aff;
+    color: #007aff;
+    text-decoration: none;
+    padding: 4px 10px;
+    border-radius: 4px;
+    margin: 0 10px;
+    font-size: 13px;
+  }
+  
+  .landingReviewCarousel > .append-buttons {
+    text-align: center;
+    margin-top: 20px;
+  }
+   
+  
+  @media screen and (min-width: 640px) {
+   
+    .landingReviewCarousel > .swiper-wrapper > .swiper-slide {
+      width: 430px !important;
+    }
+    
+    .landingReviewCarousel > .swiper-wrapper > .swiper-slide:nth-child(2n) {
+      width: 430px !important;
+    }
+    
+    .landingReviewCarousel > .swiper-wrapper >  .swiper-slide:nth-child(3n) {
+      width: 430px !important;
+    }
+    .landingReviewCarousel > .swiper-wrapper >  .swiper-slide:last-child{
+      width: 430px !important;
+    }
+  }
+  

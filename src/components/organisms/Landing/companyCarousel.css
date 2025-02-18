@@ -1,0 +1,74 @@
+.companyCarousel .swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.companyCarousel>.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  } */
+.companyCarousel>.swiper-wrapper>.swiper-slide {
+    width: auto !important;
+    background-color: transparent !important;
+}
+
+.companyCarousel>.swiper-wrapper>.swiper-slide:nth-child(2n) {
+    width: auto !important;
+}
+
+.companyCarousel>.swiper-wrapper>.swiper-slide:nth-child(3n) {
+    width: auto !important;
+}
+
+.companyCarousel>.swiper-wrapperr>.swiper-slide:last-child {
+    width: auto !important;
+}
+
+.companyCarousel>.append-buttons button {
+    display: inline-block;
+    cursor: pointer;
+    border: 1px solid #007aff;
+    color: #007aff;
+    text-decoration: none;
+    padding: 4px 10px;
+    border-radius: 4px;
+    margin: 0 10px;
+    font-size: 13px;
+}
+
+.companyCarousel>.append-buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+@media screen and (min-width: 640px) {
+
+    .companyCarousel>.swiper-wrapper>.swiper-slide {
+        width: auto !important;
+    }
+
+    .companyCarousel>.swiper-wrapper>.swiper-slide:nth-child(2n) {
+        width: auto !important;
+    }
+
+    .companyCarousel>.swiper-wrapper>.swiper-slide:nth-child(3n) {
+        width: auto !important;
+    }
+
+    .companyCarousel>.swiper-wrapper>.swiper-slide:last-child {
+        width: auto !important;
+    }
+}

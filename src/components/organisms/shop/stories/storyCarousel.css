@@ -1,0 +1,47 @@
+.swiper-slide {
+  transition: opacity 0.3s ease;
+}
+
+.slide-label {
+  /* padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: black; */
+  height: 100%;
+  width: 100%;
+  /* opacity: 0.5; Initial opacity for non-active slides */
+}
+
+.slide-label.active {
+  /* background-color: #63257B; */
+  height: 100%;
+  /* color: #fff;
+  opacity: 1; Make the active slide fully visible */
+}
+
+
+@media screen and (min-width: 640px) {
+  .swiper-slide {
+    transition: opacity 0.3s ease;
+  }
+  
+  .slide-label {
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: black;
+    height: 90%;
+    width: 100%;
+    opacity: 0.5; /* Initial opacity for non-active slides */
+  }
+  
+  .slide-label.active {
+    /* background-color: #63257B; */
+    height: 100%;
+    color: #fff;
+    opacity: 1; /* Make the active slide fully visible */
+  }
+  
+}

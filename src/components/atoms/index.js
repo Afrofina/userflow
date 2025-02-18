@@ -1,0 +1,12 @@
+export { default as Button } from './Button';
+export { default as Input } from './Input';
+export { default as Image } from "./Image";
+export { default as Text } from "./Text";
+export { default as Select } from "./Select"
+export { default as Carousel } from "./Carousel"
+export {default as Svg} from "./Svg"
+export {default as Chart} from "./chart"
+export {default as Dropdown} from "./Dropdown"
+export {default as Switch} from "./Switch"
+export {default as Textarea} from "./Textarea"
+export {default as Slider} from "./slider"
