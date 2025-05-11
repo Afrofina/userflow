@@ -25,7 +25,7 @@ export default function CardsOrganism() {
               <Button
                 isIcon="true"
                 iconSrc="/explore/shipPrimary.svg"
-                className="bg-dark lg:px-2 px-2 text-primary rounded-full py-2 flex flex-row-reverse items-center w-[146px] !text-xs"
+                className="bg-dark mt-5 lg:px-2 px-2 text-primary rounded-full py-2 flex flex-row-reverse items-center w-[146px] !text-xs"
               >
                 Join U-Cargo
               </Button>
@@ -73,7 +73,7 @@ export default function CardsOrganism() {
             <Button
               isIcon="true"
               iconSrc="/explore/sendMoney.svg"
-              className="bg-dark px-2 text-green rounded-full py-2 flex flex-row-reverse items-center"
+              className="bg-dark px-2 text-green rounded-full py-2 flex flex-row-reverse items-center !text-xs"
             >
               Send Money
             </Button>
