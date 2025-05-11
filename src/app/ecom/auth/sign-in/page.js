@@ -18,7 +18,7 @@ export default function SignIn() {
           width={1000}
           height={1000}
         />
-        <div className="absolute top-5 right-5 z-50 bg-yellow-500 py-2 px-7 rounded-3xl">
+        <div className="absolute top-5 right-5 z-50 bg-primary py-2 px-7 rounded-3xl">
           <Link className="items-center" href={"sign-up"}>
             <Text className="text-black text-right float-right">
               Sign up{" "}
