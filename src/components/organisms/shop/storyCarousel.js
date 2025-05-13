@@ -333,7 +333,7 @@ export default function App() {
           {/* Close Button */}
           <button
             onClick={closeStory}
-            className="absolute top-4 right-4 text-white text-3xl font-bold"
+            className="z-50 items-center rounded-full bg-primary px-2 absolute top-4 right-4 text-black text-3xl font-bold"
           >
             ×
           </button>
@@ -407,20 +407,32 @@ export default function App() {
 
           {/* Arrows */}
           {storyIndex > 0 && (
-            <button
+            // <button
+            //   onClick={prevStory}
+            //   className="absolute left-8 text-white text-4xl font-bold"
+            // >
+            //   ‹
+            // </button>
+            <Image
               onClick={prevStory}
-              className="absolute left-8 text-white text-4xl font-bold"
-            >
-              ‹
-            </button>
+              src={"/shop/story/previous.svg"}
+              width={30}
+              className="absolute left-6 text-white text-4xl font-bold"
+            />
           )}
           {storyIndex < slides.length - 1 && (
-            <button
+            // <button
+            //   onClick={nextStory}
+            //   className="absolute right-8 text-white text-4xl font-bold"
+            // >
+            //   ›
+            // </button>
+            <Image
               onClick={nextStory}
-              className="absolute right-8 text-white text-4xl font-bold"
-            >
-              ›
-            </button>
+              src={"/shop/story/next.svg"}
+              width={30}
+              className="absolute right-6 text-white text-4xl font-bold"
+            />
           )}
         </div>
       )}
