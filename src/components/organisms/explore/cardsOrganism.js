@@ -21,13 +21,15 @@ export default function CardsOrganism() {
             >
               Become a U-cargo now
             </Text>
-            <Button
-              isIcon="true"
-              iconSrc="/explore/shipPrimary.svg"
-              className="bg-dark lg:px-2 px-2 text-primary rounded-full py-2 flex flex-row-reverse items-center w-[146px] !text-xs"
-            >
-              Join U-Cargo
-            </Button>
+            <Link href={"/ecom/ship/u-cargo-agent"}>
+              <Button
+                isIcon="true"
+                iconSrc="/explore/shipPrimary.svg"
+                className="bg-dark lg:px-2 px-2 text-primary rounded-full py-2 flex flex-row-reverse items-center w-[146px] !text-xs"
+              >
+                Join U-Cargo
+              </Button>
+            </Link>
           </div>
           <Image src={"/explore/images/bag.svg"} width={148} />
         </div>
@@ -42,13 +44,13 @@ export default function CardsOrganism() {
         <Card
           text="Food and Groceries"
           imageSrc="/explore/images/groceries.png"
-          link="/ecom/explore/pay-utility"
+          link="/ecom/shop"
           iconSrc="/explore/rightIconWhite.svg"
         />
         <Card
           text="Book a Flight"
           imageSrc="/explore/images/flight.png"
-          link="/ecom/explore/pay-utility"
+          link="/ecom/explore/"
           iconSrc="/explore/rightIconWhite.svg"
         />
       </div>
@@ -56,7 +58,7 @@ export default function CardsOrganism() {
         <Card
           text="Stays"
           imageSrc="/explore/images/stays.png"
-          link="/ecom/explore/pay-utility"
+          link="/ecom/explore/"
           iconSrc="/explore/rightIconWhite.svg"
         />
         <div className="bg-green w-full rounded-3xl h-[424] flex flex-col justify-end items-start px-6 pb-12 space-y-12 relative lg:pt-0 pt-12">
@@ -85,7 +87,7 @@ export default function CardsOrganism() {
         <Card
           text="Shop Africa"
           imageSrc="/explore/images/shop.png"
-          link="/ecom/explore/pay-utility"
+          link="/ecom/shop"
           iconSrc="/explore/rightIconBlack.svg"
         />
       </div>
