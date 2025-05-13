@@ -7,14 +7,15 @@ module.exports = {
   ],
   theme: {
     extend: {
-      colors:{
-         primary:'#FFD019',
-         dark:'#101010',
-         'light-gray':"#FDF8FF",
-         transparentGray:'rgba(0, 0, 0, 0.4)'
+      colors: {
+        primary: "#FFD019",
+        dark: "#101010",
+        "light-gray": "#FDF8FF",
+        transparentGray: "rgba(0, 0, 0, 0.4)",
+        green: "#04D800",
       },
       fontFamily: {
-        'sf-pro': ['SF Pro Display', 'sans-serif'],
+        "sf-pro": ["SF Pro Display", "sans-serif"],
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
